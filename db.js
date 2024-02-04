@@ -9,11 +9,7 @@ const db = mysql.createConnection({
 //   password: "Ak@9607115762",
 //   database: "adslab",
 //   insecureAuth: true,
-// const db = mysql.createConnection({
-//   host: "database-1.cb6gyaygelxe.us-east-2.rds.amazonaws.com",
-//   user: "admin",
-//   password: "Akhilvarma",
-//   database: "adslab",
+
   
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
